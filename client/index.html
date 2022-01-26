@@ -6,14 +6,22 @@
 		<title>Google</title>
 	</head>
 	<body>
+
 		<div>
 			<img src="https://www.google.com/images/srpr/logo11w.png"/>
-			<form name="google" action="#"><br>
-				<input type="search" class="search"><br>
-				<input type="submit" class="button" name="submit" value="Google Search">
-				<input type="submit" class="button" name="lucky" value="I'm Feeling Lucky">
-			</form>
+
+			<form action="#" method="post">
+
+                <br><input type="search" class="search"><br>
+
+				<input type="button" class="button" value="Google Search" onclick="window.location.href='search.html';">
+
+				<input type="button" class="button" value="I'm Feeling Lucky" onclick="window.location.href='result.html';">
+
+            </form>
+
 		</div>
+
 		<footer>
 			<a class="leftlinks" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
 			<a class="leftlinks" href="https://www.google.com/services/?fg=1">Business</a>
