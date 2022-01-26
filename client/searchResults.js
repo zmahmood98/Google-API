@@ -21,7 +21,7 @@ function parseURLQuery(){
     let parsedQuery = {};
     splitQuery.forEach(keyValue => {
         if(keyValue.length === 2) {
-            parsedQuery[keyValue[0]] = keyValue[1];
+            parsedQuery[keyValue[0]] = keyValue[1].replace(/\+/g, ' ');
         }
     });
 
