@@ -10,8 +10,17 @@ function getData(searchInput, callback){
 
 function luckyBtnHandler(e){
   const form = document.querySelector('form');
+
+  if(!form.q.value) {
+    return;
+  }
+  
   getData(form.q.value, data => {
-    window.location.href = data[0].url;
+    if(data.length) {
+      window.location.href = data[0].url;
+    } else {
+      form.submit();
+    }
   });
 }
 
