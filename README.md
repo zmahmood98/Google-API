@@ -23,6 +23,9 @@
 ### client/index.html
 * changed form to use `get` method
 
+### client/result.html
+* made logo to link back to hom
+
 ### client/index.js
 * changed `getData` function to use callback
 * implemented I'm Feeling Lucky button functionality
@@ -47,6 +50,7 @@
 - [x] error is thrown if no results found after clicking I'm Feeling Lucky
 - [x] tries to search for empty string
 - [x] typing special chars into search such as `&` or `=` breaks API call
+- [x] typing regex chars into search breaks string frequency function
 
 ### API
 - [x] `/search` alone doesn't respond with the correct error
