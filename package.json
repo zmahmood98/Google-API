@@ -17,9 +17,11 @@
     "url": "https://github.com/zmahmood98/Google-API/issues"
   },
   "homepage": "https://github.com/zmahmood98/Google-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "express": "^4.17.2"
   }
 }
