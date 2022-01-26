@@ -16,7 +16,7 @@ function parseURLQuery(){
         return "";
     }
 
-    let splitQuery = query.split('&').map(keyValue => keyValue.split("="));
+    let splitQuery = query.split('&').map(keyValue => keyValue.split("=").map(decodeURIComponent));
 
     let parsedQuery = {};
     splitQuery.forEach(keyValue => {
