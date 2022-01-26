@@ -1,0 +1,283 @@
+[
+    {
+        "title": "Cats Protection | UK's Largest Cat Welfare Charity",
+        "preview": "We are the UK's leading cat charity. We help 200000 cats and kittens every year - with your support we can help even more.",
+        "url": "https://www.cats.org.uk/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Cat - Wikipedia",
+        "preview": "The cat (Felis catus) is a domestic species of a small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred ...",
+        "url": "https://en.wikipedia.org/wiki/Cat",
+        "info": {
+            "main": {
+                "Genus": {"text": "Felis", "url": "http://en.wikipedia.org/wiki/Felis"},
+                "Class": {"text": "Mammalia", "url": "http://en.wikipedia.org/wiki/Mammal"},
+                "Kingdom": {"text": "Animalia", "url": "http://en.wikipedia.org/wiki/Animal"},
+                "Subfamily": {"text": "Felinae", "url": "http://en.wikipedia.org/wiki/Felinae"}
+            },
+            "bottom": {},
+            "links": {
+                "Evolution": "https://en.wikipedia.org/wiki/Cat#Evolution",
+                "Characteristics": "https://en.wikipedia.org/wiki/Cat#Characteristics",
+                "Senses": "https://en.wikipedia.org/wiki/Cat#Senses",
+                "Behaviour": "https://en.wikipedia.org/wiki/Cat#Behaviour"
+            }
+        },
+        "date": null
+    },
+    {
+        "title": "Cats (2019) - IMDb",
+        "preview": "Cats: Directed by Tom Hooper. With Robbie Fairchild, Mette Towley, Daniela Norman, Jaih Betote. A tribe of cats called the Jellicles must decide yearly ...",
+        "url": "https://www.imdb.com/title/tt5697572/",
+        "info": {
+            "main": {},
+            "bottom": {
+                "rating-percent": 27,
+                "rating": "2.7/10",
+                "votes": "48,704"
+            },
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Cats the Musical • Official Website and Tickets",
+        "preview": "Andrew Lloyd Webber's record-breaking, award-winning, family favourite West End and Broadway musical CATS - book your tickets today!",
+        "url": "https://www.catsthemusical.com/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "cat | Breeds & Facts | Britannica",
+        "preview": "Cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family. Like all felids, cats are ...",
+        "url": "https://www.britannica.com/animal/cat",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": "13 Dec 2021"
+    },
+    {
+        "title": "Cat | National Geographic",
+        "preview": "Domestic Cat · Relationship with Humans. Felis catus has had a very long relationship with humans. · Hunting Abilities. Like their wild relatives, domestic cats ...",
+        "url": "https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Cat Care Tips, Advice & Health Information | RSPCA",
+        "preview": "Caring for cats and kittens. Cats make affectionate and playful pets and thrive best when they're cared for considering their dietary, environmental and health ...",
+        "url": "https://www.rspca.org.uk/adviceandwelfare/pets/cats",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": "17 Dec 2009"
+    },
+    {
+        "title": "Cats (1998) - IMDb",
+        "preview": "Cats: Directed by David Mallet. With Elaine Paige, John Mills, Ken Page, Rosemarie Ford. \"Jellicle\" cats join for a Jellicle ball where they rejoice with ...",
+        "url": "https://www.imdb.com/title/tt0173714/",
+        "info": {
+            "main": {},
+            "bottom": {
+                "rating-percent": 74,
+                "rating": "7.4/10",
+                "votes": "5,401"
+            },
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Cats | Healthy Pets, Healthy People | CDC",
+        "preview": "Although cats are great companions, cat owners should be aware that sometimes cats can carry harmful germs that can cause a variety of illnesses in people, ...",
+        "url": "https://www.cdc.gov/healthypets/pets/cats.html",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "List of Cat Breeds | Petfinder",
+        "preview": "Browse our list of 57 cat breeds to find the perfect cat breed for you, and then find adoptable cats and cat shelters close to you.",
+        "url": "https://www.petfinder.com/cat-breeds/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Cats | Lifeandstyle | The Guardian",
+        "preview": "Cats · Datablog Pets prove to be the pandemic's cute, furry growth area · The Tim Dowling column Tim Dowling: the cat and I are both struggling with the new cat ...",
+        "url": "https://www.theguardian.com/lifeandstyle/cats",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Why do we think cats are unfriendly? - BBC Future",
+        "preview": "Cats are the only asocial animal we have successfully domesticated. We're disappointed that we don't bond with them as easily as dogs.",
+        "url": "https://www.bbc.com/future/article/20191024-why-do-we-think-cats-are-unfriendly",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": "24 Oct 2019"
+    },
+    {
+        "title": "Dog - Wikipedia",
+        "preview": "The dog or domestic dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the wolf which is characterized by an upturning tail.",
+        "url": "https://en.wikipedia.org/wiki/Dog",
+        "info": {
+            "main": {
+                "Genus": {"text": "Felis", "url": "http://en.wikipedia.org/wiki/Canis"},
+                "Kingdom": {"text": "Animalia", "url": "http://en.wikipedia.org/wiki/Animal"},
+                "Order": {"text": "Carnivoria", "url": "http://en.wikipedia.org/wiki/Carnivora"},
+                "Family": {"text": "Canidae", "url": "http://en.wikipedia.org/wiki/Canidae"}
+            },
+            "bottom": {},
+            "links": {
+                "Dog breed": "https://en.wikipedia.org/wiki/Dog_breed",
+                "Dog anatomy": "https://en.wikipedia.org/wiki/Dog_anatomy",
+                "Assistance dog": "https://en.wikipedia.org/wiki/Assistance_dog",
+                "Fuegian dog": "https://en.wikipedia.org/wiki/Fuegian_dog"
+            }
+        },
+        "date": null
+    },
+    {
+        "title": "Dog, facts and photos - National Geographic",
+        "preview": "The term “domestic dog” refers to any of several hundred breeds of dog in the world today. While these animals vary drastically in appearance, ...",
+        "url": "https://www.nationalgeographic.com/animals/mammals/facts/domestic-dog",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "All Dog Breeds - Complete List of Dog Profiles - DogTime",
+        "preview": "Detailed profiles of more than 200 dog breeds. Includes personality, history, dog pictures, dog health info, and more. Find the dog breed that is right for ...",
+        "url": "https://dogtime.com/dog-breeds/profiles",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Dogs Trust: Dogs Rehoming & Dog Rescue Charity",
+        "preview": "Dogs Trust is the UK's largest Dog Welfare Charity. Looking to rehome a rescue dog or to donate to an animal charity? Visit us today to find out more!",
+        "url": "https://www.dogstrust.org.uk/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Complete Guide to Caring for Dogs - Vetstreet.com",
+        "preview": "Your dog's online owners manual, featuring articles about breed information, dog selection, training, grooming and care for dogs and puppies.",
+        "url": "http://www.vetstreet.com/dogs/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Dog Care Advice, Tips & Health Information | RSPCA",
+        "preview": "Caring for your dog. Owning a dog is great fun and immensely rewarding. But given that dogs have complex needs, our expert advice will help you ensure your ...",
+        "url": "https://www.rspca.org.uk/adviceandwelfare/pets/dogs",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Dog Breeds - Types Of Dogs - American Kennel Club",
+        "preview": "What's a dog breed? People have been breeding dogs since prehistoric times. The earliest dog breeders used wolves to create domestic dogs.",
+        "url": "https://www.akc.org/dog-breeds/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": "4 Jan 2022"
+    },
+    {
+        "title": "Getting a dog | The Kennel Club",
+        "preview": "Thinking about getting a dog? Decide if you're ready, if you want a pedigree or rescue dog, and find the right breed to suit your lifestyle.",
+        "url": "https://www.thekennelclub.org.uk/getting-a-dog/",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Dog Supplies | Food, Toys, Collars & Care | Pets at Home",
+        "preview": "Keep your furry best friend healthy, happy and full of life! Shop our dog supplies for everything that a dog will ever need. Free delivery on orders over ...",
+        "url": "https://www.petsathome.com/shop/en/pets/dog",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "Dog Health Center | Dog Care and Information from WebMD",
+        "preview": "WebMD veterinary experts provide comprehensive information about dog health care, offer nutrition and feeding tips, and help you identify illnesses in dogs.",
+        "url": "https://pets.webmd.com/dogs/default.htm",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    },
+    {
+        "title": "dog | History, Domestication, Physical Traits, Breeds, & Facts",
+        "preview": "dog, (Canis lupus familiaris), domestic mammal of the family Canidae (order Carnivora). It is a subspecies of the gray wolf (Canis lupus) ...",
+        "url": "https://www.britannica.com/animal/dog",
+        "info": {
+            "main": {},
+            "bottom": {},
+            "links": []
+        },
+        "date": null
+    }
+]
