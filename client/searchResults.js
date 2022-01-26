@@ -44,8 +44,11 @@ function renderStats(data, startTime){
 
 }
 
-function renderData(data, query){
+function renderData(data, page, query){
     const resultsElement = document.querySelector('#searchresultsarea');
+
+    data = data.slice((page - 1) * 10, page * 10);
+
     data.forEach(dataItem => {
         let result = document.createElement('div');
         let resultHeading = document.createElement('h2');
@@ -112,7 +115,7 @@ function loadResults(){
 
     getData(query, data => {
         clearResults();
-        renderData(data, decodeURIComponent(query));
+        renderData(data, 1, decodeURIComponent(query));
         renderStats(data, reqStartTime);
     });
 }

@@ -32,6 +32,7 @@
 
 ### client/searchResults.js
 * added related searches when rendering results
+* changed to show 10 results
 
 ### package.json
 * changed package name to be lowercase
