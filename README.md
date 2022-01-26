@@ -20,6 +20,13 @@
 
 ## Changelog
 
+### client/index.html
+* changed form to use `get` method
+
+### client/index.js
+* changed `getData` function to use callback
+* implemented I'm Feeling Lucky button functionality
+
 ### package.json
 * changed package name to be lowercase
 
@@ -31,6 +38,10 @@
 * added route for `GET /search?q=` to search through data
 
 ## Bugs
+
+### Client
+- [x] javascript file not linked to html
+- [x] 
 
 ### API
 - [x] `/search` alone doesn't respond with the correct error
