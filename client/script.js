@@ -8,6 +8,15 @@ function getData(searchInput, callback){
     .then(callback);
 }
 
+function searchBtnHandler(e){
+  e.preventDefault();
+
+  const form = document.querySelector('form');
+  if(form.q.value.trim().length) {
+    form.submit();
+  }
+}
+
 function luckyBtnHandler(e){
   const form = document.querySelector('form');
 
@@ -27,3 +36,6 @@ function luckyBtnHandler(e){
 // event listeners
 const luckyBtn = document.querySelector('#lucky-btn');
 luckyBtn.addEventListener('click', luckyBtnHandler);
+
+const searchBtn = document.querySelector('#search-btn');
+searchBtn.addEventListener('click', searchBtnHandler);
