@@ -10,13 +10,13 @@
 		<div>
 			<img src="https://www.google.com/images/srpr/logo11w.png"/>
 
-			<form action="http://localhost:3000/search?q=" method="post">
+			<form action="result.html" method="get">
 
-                <br><input type="search" class="search"><br>
+                <br><input type="search" class="search" name="q"><br>
 
-				<input type="button" class="button" value="Google Search" onclick="window.location.href='search.html';">
+				<input id="search-btn" type="submit" class="button" value="Google Search">
 
-				<input type="button" class="button" value="I'm Feeling Lucky" onclick="window.location.href='result.html';">
+				<input id="lucky-btn" type="button" class="button" value="I'm Feeling Lucky">
 
             </form>
 
