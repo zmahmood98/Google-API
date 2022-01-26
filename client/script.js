@@ -9,6 +9,7 @@ function getData(searchInput, callback){
 }
 
 function luckyBtnHandler(e){
+    debugger
   const form = document.querySelector('form');
 
   if(!form.q.value) {
