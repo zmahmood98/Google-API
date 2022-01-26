@@ -27,6 +27,9 @@
 * changed `getData` function to use callback
 * implemented I'm Feeling Lucky button functionality
 
+### client/searchResults.js
+* added related searches when rendering results
+
 ### package.json
 * changed package name to be lowercase
 
@@ -40,7 +43,7 @@
 ## Bugs
 
 ### Client
-- [x] javascript file not linked to html
+- [x] javascript file not linked to index.html
 - [x] error is thrown if no results found after clicking I'm Feeling Lucky
 - [x] tries to search for empty string
 - [x] typing special chars into search such as `&` or `=` breaks API call

@@ -44,7 +44,7 @@ function renderStats(data, startTime){
 
 }
 
-function renderData(data){
+function renderData(data, query){
     const resultsElement = document.querySelector('#searchresultsarea');
     data.forEach(dataItem => {
         let result = document.createElement('div');
@@ -66,6 +66,31 @@ function renderData(data){
         result.appendChild(resultPreview);
         resultsElement.appendChild(result);
     });
+
+    //related searches
+    let related = document.createElement('div');
+    let relatedHeading = document.createElement('h3');
+    let relatedListContainer = document.createElement('div');
+    let relatedList = document.createElement('ul');
+    let relatedListItem1 = document.createElement('li');
+    let relatedListItem2 = document.createElement('li');
+    let relatedListItem3 = document.createElement('li');
+
+    related.className = 'relatedsearches';
+    relatedHeading.textContent = 'Related searches';
+    relatedListContainer.className = 'relatedlists';
+    relatedList.className = 'relatedleft';
+    relatedListItem1.innerHTML = `what is <b>${query}</b>`;
+    relatedListItem2.innerHTML = `<b>${query}</b> photos`;
+    relatedListItem3.innerHTML = `<b>${query}</b> videos`;
+
+    related.appendChild(relatedHeading);
+    related.appendChild(relatedListContainer);
+    relatedListContainer.appendChild(relatedList);
+    relatedList.appendChild(relatedListItem1);
+    relatedList.appendChild(relatedListItem2);
+    relatedList.appendChild(relatedListItem3);
+    resultsElement.appendChild(related);
 }
 
 function getData(searchInput, callback){
@@ -87,7 +112,7 @@ function loadResults(){
 
     getData(query, data => {
         clearResults();
-        renderData(data);
+        renderData(data, decodeURIComponent(query));
         renderStats(data, reqStartTime);
     });
 }
