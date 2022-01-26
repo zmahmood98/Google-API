@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
 body {
     min-height: 100%;
     position: relative;
@@ -16,12 +22,6 @@ body {
     height: 30px;
     padding: 0px 28px 10px 30px;
     cursor: pointer;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    height: auto;
 }
 
 #searchbar {
@@ -160,6 +160,30 @@ html, body {
     font-size: 13px;
     margin-top: 0px;
     color: rgb(82, 82, 82);
+}
+
+.relatedsearches h3 {
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.relatedlists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.relatedlists ul {
+    list-style: none;
+    color: rgb(29, 1, 189);
+    padding-left: 0px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.relatedlists ul li {
+    margin-bottom: 8px;
 }
 
 #footer {
