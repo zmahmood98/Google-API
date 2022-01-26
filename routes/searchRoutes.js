@@ -8,8 +8,13 @@ router.get('/', (req, res) => {
     let query = req.query.q;
 
     // check if valid url
-    if(!query) {
+    if(typeof query === 'undefined') {
         res.status(400).send('400 Bad Request');
+        return;
+    }
+
+    if(!query) {
+        res.json([]);
         return;
     }
 

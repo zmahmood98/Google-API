@@ -3,16 +3,24 @@ function renderAllData(data){
 }
 
 function getData(searchInput, callback){
-  fetch(`http://localhost:3000/search?q=${searchInput}`)
+  fetch(`http://localhost:3000/search?q=${encodeURIComponent(searchInput)}`)
     .then(resp => resp.json())
     .then(callback);
 }
 
 function luckyBtnHandler(e){
-    debugger
   const form = document.querySelector('form');
+
+  if(!form.q.value) {
+    return;
+  }
+  
   getData(form.q.value, data => {
-    window.location.href = data[0].url;
+    if(data.length) {
+      window.location.href = data[0].url;
+    } else {
+      form.submit();
+    }
   });
 }
 
