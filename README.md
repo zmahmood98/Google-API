@@ -41,7 +41,8 @@
 
 ### Client
 - [x] javascript file not linked to html
-- [x] 
+- [x] error is thrown if no results found after clicking I'm Feeling Lucky
+- [ ] tries to search for empty string
 
 ### API
 - [x] `/search` alone doesn't respond with the correct error
