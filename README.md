@@ -50,10 +50,11 @@
 - [x] error is thrown if no results found after clicking I'm Feeling Lucky
 - [x] tries to search for empty string
 - [x] typing special chars into search such as `&` or `=` breaks API call
-- [x] typing regex chars into search breaks string frequency function
 
 ### API
 - [x] `/search` alone doesn't respond with the correct error
 - [x] `/search?q=` responds with all data regardless of search string
 - [x] logic in `/search` continues to run after invalid request is detected
 - [x] `[ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client` error from console when accessing `/search`
+- [x] typing regex chars into search breaks string frequency function
+- [x] searching with spaces puts `+` into the search
