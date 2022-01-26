@@ -9,6 +9,7 @@ function getData(searchInput, callback){
 }
 
 function luckyBtnHandler(e){
+    debugger
   const form = document.querySelector('form');
   getData(form.q.value, data => {
     window.location.href = data[0].url;
