@@ -16,12 +16,12 @@ function parseURLQuery(){
         return "";
     }
 
-    let splitQuery = query.split('&').map(keyValue => keyValue.split("="));
+    let splitQuery = query.split('&').map(keyValue => keyValue.split("=").map(decodeURIComponent));
 
     let parsedQuery = {};
     splitQuery.forEach(keyValue => {
         if(keyValue.length === 2) {
-            parsedQuery[keyValue[0]] = keyValue[1];
+            parsedQuery[keyValue[0]] = keyValue[1].replace(/\+/g, ' ');
         }
     });
 
@@ -44,8 +44,11 @@ function renderStats(data, startTime){
 
 }
 
-function renderData(data){
+function renderData(data, page, query){
     const resultsElement = document.querySelector('#searchresultsarea');
+
+    data = data.slice((page - 1) * 10, page * 10);
+
     data.forEach(dataItem => {
         let result = document.createElement('div');
         let resultHeading = document.createElement('h2');
@@ -66,6 +69,31 @@ function renderData(data){
         result.appendChild(resultPreview);
         resultsElement.appendChild(result);
     });
+
+    //related searches
+    let related = document.createElement('div');
+    let relatedHeading = document.createElement('h3');
+    let relatedListContainer = document.createElement('div');
+    let relatedList = document.createElement('ul');
+    let relatedListItem1 = document.createElement('li');
+    let relatedListItem2 = document.createElement('li');
+    let relatedListItem3 = document.createElement('li');
+
+    related.className = 'relatedsearches';
+    relatedHeading.textContent = 'Related searches';
+    relatedListContainer.className = 'relatedlists';
+    relatedList.className = 'relatedleft';
+    relatedListItem1.innerHTML = `what is <b>${query}</b>`;
+    relatedListItem2.innerHTML = `<b>${query}</b> photos`;
+    relatedListItem3.innerHTML = `<b>${query}</b> videos`;
+
+    related.appendChild(relatedHeading);
+    related.appendChild(relatedListContainer);
+    relatedListContainer.appendChild(relatedList);
+    relatedList.appendChild(relatedListItem1);
+    relatedList.appendChild(relatedListItem2);
+    relatedList.appendChild(relatedListItem3);
+    resultsElement.appendChild(related);
 }
 
 function getData(searchInput, callback){
@@ -87,7 +115,7 @@ function loadResults(){
 
     getData(query, data => {
         clearResults();
-        renderData(data);
+        renderData(data, 1, decodeURIComponent(query));
         renderStats(data, reqStartTime);
     });
 }

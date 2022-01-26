@@ -23,9 +23,16 @@
 ### client/index.html
 * changed form to use `get` method
 
+### client/result.html
+* made logo to link back to hom
+
 ### client/index.js
 * changed `getData` function to use callback
 * implemented I'm Feeling Lucky button functionality
+
+### client/searchResults.js
+* added related searches when rendering results
+* changed to show 10 results
 
 ### package.json
 * changed package name to be lowercase
@@ -40,7 +47,7 @@
 ## Bugs
 
 ### Client
-- [x] javascript file not linked to html
+- [x] javascript file not linked to index.html
 - [x] error is thrown if no results found after clicking I'm Feeling Lucky
 - [x] tries to search for empty string
 - [x] typing special chars into search such as `&` or `=` breaks API call
@@ -50,3 +57,5 @@
 - [x] `/search?q=` responds with all data regardless of search string
 - [x] logic in `/search` continues to run after invalid request is detected
 - [x] `[ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client` error from console when accessing `/search`
+- [x] typing regex chars into search breaks string frequency function
+- [x] searching with spaces puts `+` into the search
